@@ -1,0 +1,1 @@
+[{"Id":1,"ModelInstanceName":"BCL.Proxy._Config","MethodName":"_SetProxies","args":["ProxyList.txt"],"ReturnedName":"_SetProxies-1","Once":false,"Value":null},{"Id":2,"ModelInstanceName":"BCL.Combo._Config","MethodName":"_SetComboList","args":["ProxyList.txt"],"ReturnedName":"_SetComboList-2","Once":false,"Value":null}]

@@ -1,0 +1,161 @@
+[{
+    "Id": 1,
+    "ModelInstanceName": "BCL.Request._Manager",
+    "MethodName": "_GenerateNewRequest",
+    "args": ["1", "https://user.qiau.ac.ir/web/netsuite.cgi/loginform"],
+    "ReturnedName": "_GenerateNewRequest-1",
+    "Once": false,
+    "Value": null
+}, {
+    "Id": 2,
+    "ModelInstanceName": "BCL.Request._Manager",
+    "MethodName": "_ActivateRequest",
+    "args": ["1"],
+    "ReturnedName": "_ActivateRequest-2",
+    "Once": false,
+    "Value": null
+}, {
+    "Id": 3,
+    "ModelInstanceName": "BCL.Request._Config",
+    "MethodName": "_AddHeaderToRequest",
+    "args": ["Accept", "*", null],
+    "ReturnedName": "_AddHeaderToRequest-3",
+    "Once": false,
+    "Value": null
+}, {
+    "Id": 4,
+    "ModelInstanceName": "BCL.Request._Config",
+    "MethodName": "_AddHeaderToRequest",
+    "args": ["ContentType", "application/x-www-form-urlencoded", null],
+    "ReturnedName": "_AddHeaderToRequest-4",
+    "Once": false,
+    "Value": null
+}, {
+    "Id": 5,
+    "ModelInstanceName": "BCL.Request._Config",
+    "MethodName": "_AddHeaderToRequest",
+    "args": ["Host", "user.qiau.ac.ir", null],
+    "ReturnedName": "_AddHeaderToRequest-5",
+    "Once": false,
+    "Value": null
+}, {
+    "Id": 6,
+    "ModelInstanceName": "BCL.Request._Config",
+    "MethodName": "_AddCustomeHeaderToRequest",
+    "args": ["Origin", "https://user.qiau.ac.ir", null],
+    "ReturnedName": "_AddCustomeHeaderToRequest-6",
+    "Once": false,
+    "Value": null
+}, {
+    "Id": 7,
+    "ModelInstanceName": "BCL.Request._Config",
+    "MethodName": "_AddHeaderToRequest",
+    "args": ["Referer", "https://user.qiau.ac.ir/web/", null],
+    "ReturnedName": "_AddHeaderToRequest-7",
+    "Once": false,
+    "Value": null
+}, {
+    "Id": 8,
+    "ModelInstanceName": "BCL.Request._Config",
+    "MethodName": "_AddCustomeHeaderToRequest",
+    "args": ["Sec-Fetch-Mode", "navigate", null],
+    "ReturnedName": "_AddCustomeHeaderToRequest-8",
+    "Once": false,
+    "Value": null
+}, {
+    "Id": 9,
+    "ModelInstanceName": "BCL.Request._Config",
+    "MethodName": "_AddCustomeHeaderToRequest",
+    "args": ["Sec-Fetch-Site", "same-origin", null],
+    "ReturnedName": "_AddCustomeHeaderToRequest-9",
+    "Once": false,
+    "Value": null
+}, {
+    "Id": 10,
+    "ModelInstanceName": "BCL.Request._Config",
+    "MethodName": "_AddCustomeHeaderToRequest",
+    "args": ["Sec-Fetch-User", "?1", null],
+    "ReturnedName": "_AddCustomeHeaderToRequest-10",
+    "Once": false,
+    "Value": null
+}, {
+    "Id": 11,
+    "ModelInstanceName": "BCL.Request._Config",
+    "MethodName": "_AddHeaderToRequest",
+    "args": ["Method", "POST", null],
+    "ReturnedName": "_AddHeaderToRequest-11",
+    "Once": false,
+    "Value": null
+}, {
+    "Id": 12,
+    "ModelInstanceName": "BCL.Request._Config",
+    "MethodName": "_WriteData",
+    "args": ["uid=src_chegini&pwd=8291", null],
+    "ReturnedName": "_WriteData-12",
+    "Once": false,
+    "Value": null
+}, {
+    "Id": 13,
+    "ModelInstanceName": "BCL.Request._Config",
+    "MethodName": "_SetUserAgent",
+    "args": ["1", null],
+    "ReturnedName": "_SetUserAgent-13",
+    "Once": false,
+    "Value": null
+}, {
+    "Id": 14,
+    "ModelInstanceName": "BCL.Request._Config",
+    "MethodName": "_CopyRequestConfig",
+    "args": ["req_1", null, null],
+    "ReturnedName": "_CopyRequestConfig-14",
+    "Once": false,
+    "Value": null
+}, {
+    "Id": 15,
+    "ModelInstanceName": "BCL.Variables._View",
+    "MethodName": "_ShowVariableProperties",
+    "args": ["req_1"],
+    "ReturnedName": "_ShowVariableProperties-15",
+    "Once": false,
+    "Value": null
+}, {
+    "Id": 16,
+    "ModelInstanceName": "BCL.Request._View",
+    "MethodName": "_ShowRequestProperties",
+    "args": ["Headers", "false", null],
+    "ReturnedName": "_ShowRequestProperties-16",
+    "Once": false,
+    "Value": null
+}, {
+    "Id": 17,
+    "ModelInstanceName": "BCL.Response._Manager",
+    "MethodName": "_CreateNewResponse",
+    "args": ["1"],
+    "ReturnedName": "_CreateNewResponse-17",
+    "Once": false,
+    "Value": null
+}, {
+    "Id": 18,
+    "ModelInstanceName": "BCL.Response._Manager",
+    "MethodName": "_ActivateResponse",
+    "args": ["1"],
+    "ReturnedName": "_ActivateResponse-18",
+    "Once": false,
+    "Value": null
+}, {
+    "Id": 19,
+    "ModelInstanceName": "BCL.Response._View",
+    "MethodName": "_showHtmlPage",
+    "args": [null],
+    "ReturnedName": "_showHtmlPage-19",
+    "Once": false,
+    "Value": null
+}, {
+    "Id": 20,
+    "ModelInstanceName": "BCL.Records._Config",
+    "MethodName": "_PauseRecord",
+    "args": ["pause"],
+    "ReturnedName": "_PauseRecord-20",
+    "Once": false,
+    "Value": null
+}]

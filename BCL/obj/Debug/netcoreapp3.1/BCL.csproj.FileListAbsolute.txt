@@ -1,0 +1,34 @@
+C:/Users/alireza/source/repos/BCL/BCL/bin/Debug/netcoreapp3.1/BCL.exe
+C:/Users/alireza/source/repos/BCL/BCL/bin/Debug/netcoreapp3.1/BCL.deps.json
+C:/Users/alireza/source/repos/BCL/BCL/bin/Debug/netcoreapp3.1/BCL.runtimeconfig.json
+C:/Users/alireza/source/repos/BCL/BCL/bin/Debug/netcoreapp3.1/BCL.runtimeconfig.dev.json
+C:/Users/alireza/source/repos/BCL/BCL/bin/Debug/netcoreapp3.1/BCL.dll
+C:/Users/alireza/source/repos/BCL/BCL/bin/Debug/netcoreapp3.1/BCL.pdb
+C:/Users/alireza/source/repos/BCL/BCL/obj/Debug/netcoreapp3.1/BCL.csprojAssemblyReference.cache
+C:/Users/alireza/source/repos/BCL/BCL/obj/Debug/netcoreapp3.1/BCL.AssemblyInfoInputs.cache
+C:/Users/alireza/source/repos/BCL/BCL/obj/Debug/netcoreapp3.1/BCL.AssemblyInfo.cs
+C:/Users/alireza/source/repos/BCL/BCL/obj/Debug/netcoreapp3.1/BCL.dll
+C:/Users/alireza/source/repos/BCL/BCL/obj/Debug/netcoreapp3.1/BCL.pdb
+C:/Users/alireza/source/repos/BCL/BCL/bin/Debug/netcoreapp3.1/McMaster.Extensions.CommandLineUtils.dll
+C:/Users/alireza/source/repos/BCL/BCL/obj/Debug/netcoreapp3.1/BCL.csproj.CopyComplete
+C:/Users/alireza/source/repos/BCL/BCL/bin/Debug/netcoreapp3.1/Newtonsoft.Json.dll
+C:/Users/alireza/source/repos/BCL/BCL/bin/Debug/netcoreapp3.1/HtmlAgilityPack.dll
+C:/Users/alireza/source/repos/BCL/BCL/bin/Debug/netcoreapp3.1/System.Xml.XPath.XmlDocument.dll
+/home/alireza/Desktop/doc/BCL-master (1)/BCL-master/BCL/bin/Debug/netcoreapp3.1/BCL
+/home/alireza/Desktop/doc/BCL-master (1)/BCL-master/BCL/bin/Debug/netcoreapp3.1/BCL.deps.json
+/home/alireza/Desktop/doc/BCL-master (1)/BCL-master/BCL/bin/Debug/netcoreapp3.1/BCL.runtimeconfig.json
+/home/alireza/Desktop/doc/BCL-master (1)/BCL-master/BCL/bin/Debug/netcoreapp3.1/BCL.runtimeconfig.dev.json
+/home/alireza/Desktop/doc/BCL-master (1)/BCL-master/BCL/bin/Debug/netcoreapp3.1/BCL.dll
+/home/alireza/Desktop/doc/BCL-master (1)/BCL-master/BCL/bin/Debug/netcoreapp3.1/BCL.pdb
+/home/alireza/Desktop/doc/BCL-master (1)/BCL-master/BCL/bin/Debug/netcoreapp3.1/HtmlAgilityPack.dll
+/home/alireza/Desktop/doc/BCL-master (1)/BCL-master/BCL/bin/Debug/netcoreapp3.1/McMaster.Extensions.CommandLineUtils.dll
+/home/alireza/Desktop/doc/BCL-master (1)/BCL-master/BCL/bin/Debug/netcoreapp3.1/Newtonsoft.Json.dll
+/home/alireza/Desktop/doc/BCL-master (1)/BCL-master/BCL/bin/Debug/netcoreapp3.1/System.Xml.XPath.XmlDocument.dll
+/home/alireza/Desktop/doc/BCL-master (1)/BCL-master/BCL/bin/Debug/netcoreapp3.1/RecordExecuter.dll
+/home/alireza/Desktop/doc/BCL-master (1)/BCL-master/BCL/bin/Debug/netcoreapp3.1/RecordExecuter.pdb
+/home/alireza/Desktop/doc/BCL-master (1)/BCL-master/BCL/obj/Debug/netcoreapp3.1/BCL.csprojAssemblyReference.cache
+/home/alireza/Desktop/doc/BCL-master (1)/BCL-master/BCL/obj/Debug/netcoreapp3.1/BCL.AssemblyInfoInputs.cache
+/home/alireza/Desktop/doc/BCL-master (1)/BCL-master/BCL/obj/Debug/netcoreapp3.1/BCL.AssemblyInfo.cs
+/home/alireza/Desktop/doc/BCL-master (1)/BCL-master/BCL/obj/Debug/netcoreapp3.1/BCL.csproj.CopyComplete
+/home/alireza/Desktop/doc/BCL-master (1)/BCL-master/BCL/obj/Debug/netcoreapp3.1/BCL.dll
+/home/alireza/Desktop/doc/BCL-master (1)/BCL-master/BCL/obj/Debug/netcoreapp3.1/BCL.pdb

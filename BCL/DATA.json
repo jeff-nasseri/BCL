@@ -1,0 +1,9 @@
+[{
+    "Id": 8,
+    "ModelInstanceName": "BCL.Repeater._Config",
+    "MethodName": "_Repeat",
+    "args": ["true", "10", "[{\"Id\":1,\"ModelInstanceName\":\"BCL.Proxy._Config\",\"MethodName\":\"_SetProxies\",\"args\":[],\"ReturnedName\":\"_SetProxies-1\",\"Once\":false,\"Value\":null},{\"Id\":3,\"ModelInstanceName\":\"BCL.Utility._Config\",\"MethodName\":\"_CutFirstOf\",\"args\":[\"_SetProxies-1\"],\"ReturnedName\":\"_CutFirstOf-3\",\"Once\":false,\"Value\":null},{\"Id\":4,\"ModelInstanceName\":\"BCL.Request._Manager\",\"MethodName\":\"_GenerateNewRequest\",\"args\":[\"http://google.com\"],\"ReturnedName\":\"_GenerateNewRequest-4\",\"Once\":false,\"Value\":null},{\"Id\":6,\"ModelInstanceName\":\"BCL.Request._Config\",\"MethodName\":\"_AddCustomeHeaderToRequest\",\"args\":[\"_GenerateNewRequest-4\",\"proxy\",\"_CutFirstOf-3\"],\"ReturnedName\":\"_AddCustomeHeaderToRequest-6\",\"Once\":false,\"Value\":null},{\"Id\":7,\"ModelInstanceName\":\"BCL.Request._Config\",\"MethodName\":\"_SetProxyToRequest\",\"args\":[\"_GenerateNewRequest-4\",\"_CutFirstOf-3\"],\"ReturnedName\":\"_SetProxyToRequest-7\",\"Once\":false,\"Value\":null}]"],
+    "ReturnedName": "_Repeat-8",
+    "Once": false,
+    "Value": null
+}]

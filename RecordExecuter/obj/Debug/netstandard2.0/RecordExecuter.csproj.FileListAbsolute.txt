@@ -1,0 +1,8 @@
+/home/alireza/Desktop/doc/BCL-master (1)/BCL-master/RecordExecuter/bin/Debug/netstandard2.0/RecordExecuter.deps.json
+/home/alireza/Desktop/doc/BCL-master (1)/BCL-master/RecordExecuter/bin/Debug/netstandard2.0/RecordExecuter.dll
+/home/alireza/Desktop/doc/BCL-master (1)/BCL-master/RecordExecuter/bin/Debug/netstandard2.0/RecordExecuter.pdb
+/home/alireza/Desktop/doc/BCL-master (1)/BCL-master/RecordExecuter/obj/Debug/netstandard2.0/RecordExecuter.csprojAssemblyReference.cache
+/home/alireza/Desktop/doc/BCL-master (1)/BCL-master/RecordExecuter/obj/Debug/netstandard2.0/RecordExecuter.AssemblyInfoInputs.cache
+/home/alireza/Desktop/doc/BCL-master (1)/BCL-master/RecordExecuter/obj/Debug/netstandard2.0/RecordExecuter.AssemblyInfo.cs
+/home/alireza/Desktop/doc/BCL-master (1)/BCL-master/RecordExecuter/obj/Debug/netstandard2.0/RecordExecuter.dll
+/home/alireza/Desktop/doc/BCL-master (1)/BCL-master/RecordExecuter/obj/Debug/netstandard2.0/RecordExecuter.pdb
