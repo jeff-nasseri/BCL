@@ -12,7 +12,7 @@ namespace BCL.Repeater {
                 var record_last = RecordQueries.GetRecords ().Last ();
                 RecordQueries.GetRecords ().Remove (record_last.Key);
                 var last_id = record_last.Key;
-                var _id=RecordQueries.GetRecords ().Last ().Key;
+                var _id=RecordQueries.GetRecords ().OrderBy (r=>r.Key).Last().Key;
                 var listOfRecordModel = RecordQueries.GetRecords ().Where (r => r.Key <=_id )
                     .Select (rec => new RecordModel {
                         Id = rec.Key,

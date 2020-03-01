@@ -13,7 +13,8 @@
     "args": ["1"],
     "ReturnedName": "_ActivateRequest-2",
     "Once": false,
-    "Value": null
+    "Value": null,
+    "State":"on_start"
 }, {
     "Id": 3,
     "ModelInstanceName": "BCL.Request._Config",
@@ -124,38 +125,6 @@
     "MethodName": "_ShowRequestProperties",
     "args": ["Headers", "false", null],
     "ReturnedName": "_ShowRequestProperties-16",
-    "Once": false,
-    "Value": null
-}, {
-    "Id": 17,
-    "ModelInstanceName": "BCL.Response._Manager",
-    "MethodName": "_CreateNewResponse",
-    "args": ["1"],
-    "ReturnedName": "_CreateNewResponse-17",
-    "Once": false,
-    "Value": null
-}, {
-    "Id": 18,
-    "ModelInstanceName": "BCL.Response._Manager",
-    "MethodName": "_ActivateResponse",
-    "args": ["1"],
-    "ReturnedName": "_ActivateResponse-18",
-    "Once": false,
-    "Value": null
-}, {
-    "Id": 19,
-    "ModelInstanceName": "BCL.Response._View",
-    "MethodName": "_showHtmlPage",
-    "args": [null],
-    "ReturnedName": "_showHtmlPage-19",
-    "Once": false,
-    "Value": null
-}, {
-    "Id": 20,
-    "ModelInstanceName": "BCL.Records._Config",
-    "MethodName": "_PauseRecord",
-    "args": ["pause"],
-    "ReturnedName": "_PauseRecord-20",
     "Once": false,
     "Value": null
 }]
