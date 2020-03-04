@@ -125,7 +125,8 @@ namespace BCL.Records {
                         MethodName = rec.Value.method.Name,
                         args = rec.Value.args,
                         ReturnedName = rec.Value.method.Name + '-' + rec.Key,
-                        Once = false
+                        Once = false,
+                        State = "undifined"
                 });
                 var Json = JsonConvert.SerializeObject (listOfRecordModel);
                 writer.Write (Json);
@@ -180,12 +181,12 @@ namespace BCL.Records {
         }
 
         public void ExecuteRecords (string fileName) {
-                using (StreamReader reader = new StreamReader (fileName)) {
-                    var json = reader.ReadToEnd ();
-                    var records = JsonConvert.DeserializeObject<List<RecordModel>> (json) as List<RecordModel>;
-                    Utilities.RunRecords (records);
-                }
+            using (StreamReader reader = new StreamReader (fileName)) {
+                var json = reader.ReadToEnd ();
+                var records = JsonConvert.DeserializeObject<List<RecordModel>> (json) as List<RecordModel>;
+                Utilities.RunRecords (records);
+            }
         }
-        
+
     }
 }

@@ -13,8 +13,7 @@
     "args": ["1"],
     "ReturnedName": "_ActivateRequest-2",
     "Once": false,
-    "Value": null,
-    "State":"on_start"
+    "Value": null
 }, {
     "Id": 3,
     "ModelInstanceName": "BCL.Request._Config",
@@ -125,6 +124,30 @@
     "MethodName": "_ShowRequestProperties",
     "args": ["Headers", "false", null],
     "ReturnedName": "_ShowRequestProperties-16",
+    "Once": false,
+    "Value": null
+}, {
+    "Id": 17,
+    "ModelInstanceName": "BCL.Records._View",
+    "MethodName": "_DisplayRecords",
+    "args": [],
+    "ReturnedName": "_DisplayRecords-17",
+    "Once": false,
+    "Value": null
+}, {
+    "Id": 18,
+    "ModelInstanceName": "BCL.Response._View",
+    "MethodName": "_IsHtmlPageContain",
+    "args": ["Welcome", null],
+    "ReturnedName": "_IsHtmlPageContain-18",
+    "Once": false,
+    "Value": null
+}, {
+    "Id": 19,
+    "ModelInstanceName": "BCL.Records._Config",
+    "MethodName": "_ExportRecords",
+    "args": ["_QIAU.json"],
+    "ReturnedName": "_ExportRecords-19",
     "Once": false,
     "Value": null
 }]
