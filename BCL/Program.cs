@@ -18,16 +18,16 @@ namespace BCL {
             }
         }
         static void Main (string[] args) {
-            Test();
+            //Test();
 
-            // var types = Assembly.GetExecutingAssembly ().GetTypes ().Where (t => t.Name[0] == Utilities.Mode_4[0] /*for remove <PrivateImplementationDetails>*/ && t.Name[1] != '_');
-            // var onProccess = new OnProccess (types);
-            // onProccess.SetAppsInStaticStorage ();
-            // onProccess.CallConventions ();
-            // onProccess.InsertFunctionsCommandInStaticStorage ();
+            var types = Assembly.GetExecutingAssembly ().GetTypes ().Where (t => t.Name[0] == Utilities.Mode_4[0] /*for remove <PrivateImplementationDetails>*/ && t.Name[1] != '_');
+            var onProccess = new OnProccess (types);
+            onProccess.SetAppsInStaticStorage ();
+            onProccess.CallConventions ();
+            onProccess.InsertFunctionsCommandInStaticStorage ();
 
-            // var userInteraction = new UserInteraction ();
-            // userInteraction.StartInteraction ();
+            var userInteraction = new UserInteraction ();
+            userInteraction.StartInteraction ();
 
         }
     }
