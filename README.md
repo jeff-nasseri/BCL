@@ -1,4 +1,4 @@
-# BCL [![version](https://img.shields.io/badge/version-0.1-green.svg)](https://semver.org)
+# BCL [![version](https://img.shields.io/badge/version-1.0-green.svg)](https://semver.org)
 
 
 Use this software to test and configure different sites. This software will help you to properly configure different sites and for example the site login page.
