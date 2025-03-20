@@ -1,16 +1,16 @@
 # BCL [![version](https://img.shields.io/badge/version-1.0-green.svg)](https://semver.org)
 
+BCL is a testing and configuration tool for websites. This software helps you properly configure different sites, including login pages and other elements. Currently supports HTTP and HTTPS protocols only.
 
-Use this software to test and configure different sites. This software will help you to properly configure different sites and for example the site login page.
-This software only supports HTTP and HTTPS protocols
+## Architecture
 
+BCL is organized into panels, each with an Action Layer and Command Layer. The Action Layer contains functions that execute commands in the Command Layer. Each panel has its own repository in the storage folder.
 
-
-
-# Panels
+### Panel Structure
+```
 ├───Combo  
 │   ├───ActionLayer  
-│   └───CommnadLayer  
+│   └───CommandLayer  
 ├───Proxy  
 │   ├───ActionLayer  
 │   └───CommandLayer  
@@ -29,72 +29,76 @@ This software only supports HTTP and HTTPS protocols
 └───Variables  
     ├───ActionLayer  
     └───CommandLayer  
+```
 
+## Getting Started
 
+### Example: Displaying a Web Page
 
-
-Each panel has two layers of action and commands, which are functions in the action layer that execute commands in the commands layer.
-The commands layer for each panel contains views and configs, but there are some differences  
-Notice that each panel has a repository in the storage folder  
-  
-# Sample
-Comedy example for displaying a web page  
-  
-//go to request panel  
+1. Navigate to the request panel:
+```
 > req_manager
+```
 
+2. Generate a new request with a key and URL:
+```
+BCL.Request._Manager > generate 1 http://google.com
+```
 
-
-###### generate new request by request key and url  
-###### more information of each panel by --help,for each command use -h   
-BCL.Request._Manager > generate 1 http://google.com  
-
-
-
-###### go to response panel  
+3. Switch to the response panel:
+```
 > res_manager
-  
-  
-  
-###### get response of your request bu rquest key  
-BCL.Response._Manager > get 1  
-  
-  
-  
-###### active your response if you dont for each command you must send response key  
-BCL.Response._Manager > active 1  
-  
-  
-  
-###### go to response view panel  
-BCL.Response._Manager > res_view  
-  
-  
-  
-###### oage command write all front-end code in console  
-BCL.Response._View > page    
-  
-  
-  
-  
-  
-Using the record panel you can get your own configuration file as a txt file.  
-What the record panel does is record any commands you enter, even if it's in play mode.  
-You can change this in the record panel  
+```
 
-# Sample
-###### record panel  
-> rec_view  
+4. Get the response using your request key:
+```
+BCL.Response._Manager > get 1
+```
 
+5. Activate your response (required before further operations):
+```
+BCL.Response._Manager > active 1
+```
 
-###### display records 
-###### BLC.{panel route}  void {command function}  [function or command args]
-BCL.Records._View > list  
+6. Go to the response view panel:
+```
+BCL.Response._Manager > res_view
+```
+
+7. View the full front-end code in console:
+```
+BCL.Response._View > page
+```
+
+## Recording Commands
+
+The Record panel captures all commands entered across the application, even in play mode. This allows you to save your workflow as a configuration file.
+
+### Example: Viewing Recorded Commands
+
+1. Navigate to the record view:
+```
+> rec_view
+```
+
+2. Display recorded commands:
+```
+BCL.Records._View > list
+```
+
+Output will look like:
+```
 [INFO] : 1      BCL.Request._Manager    Void _GenerateNewRequest(System.String, System.String)  [1,http://google.com,]  
 [INFO] : 2      BCL.Response._Manager   Void _CreateNewResponse(System.String)  [1,]  
 [INFO] : 3      BCL.Response._Manager   Void _ActivateResponse(System.String)   [1,]  
 [INFO] : 4      BCL.Response._View      Void _showHtmlPage(System.String)       []  
+```
 
+## Help Commands
 
-# Prerequests
-* .net core 3.1
+- Use `--help` for more information about any panel
+- Use `-h` for help with a specific command
+
+## System Requirements
+
+- .NET Core 3.1
